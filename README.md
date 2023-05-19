@@ -1,4 +1,4 @@
-# ITP_WD_B03_G05-HOTEL_RESERVATION_AND_MANAGEMENT_SYSTEM
+# ITP_WD_B03_G05
 
 # Project Name - Hotel Management and Reservation System
 # Batch - ITP_WD_B03_G05
