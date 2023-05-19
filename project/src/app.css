@@ -1,0 +1,278 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+body{
+    font-family: 'PT Serif', serif;
+}
+
+.App{
+    text-align: left;
+}
+
+
+.navbar{
+    background-color: rgb(19, 17, 17) !important;
+}
+
+.nav-link{
+    color: aliceblue !important;
+    text-align: center !important;
+}
+.navbar-brand{
+    color: aliceblue !important;
+    text-align: center !important;
+}
+
+.navbar-nav{
+    margin-right: auto !important;
+}
+a:hover {
+    background-color: rgb(121, 117, 116);
+  }
+.smallimg{
+    height: 300px;
+    width: 500px !important;
+    border: radius 5px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.h3{
+    font-size:10px !important ;
+}
+
+.btn{
+    background-color: rgb(1, 57, 18) !important;
+    color :aliceblue !important;
+    box-shadow: none !important;
+}
+.bs{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 20px !important;
+    border-radius: 5px !important;
+    padding: 20px !important;
+    background-color: rgb(221, 241, 238);
+}
+.bigimg{
+    height: 400px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: auto;
+   margin-bottom: auto;
+    border-radius : 5px !important;
+}
+
+input , select ,.ant-picker {
+    box-shadow: none !important;
+    margin-top: 10px !important;
+    border: 2px solid black !important;
+    width: 100% !important;
+    border-radius: 3px !important;
+    height: 35px !important;
+}
+h2{
+   font-size: 30px !important;
+   padding: 10px !important;
+   font-weight: bold !important;
+   text-align: center !important; 
+}
+.loginuser{
+    color: aliceblue !important;
+    text-align: right !important;
+    margin-right: auto !important;
+}
+.dropdown-toggle  {
+    border: 0px solid rgb(87, 78, 78) !important;
+    background-color: rgb(87, 78, 78) !important;
+   
+
+}
+.form-control{
+    margin-top: 10px !important;
+}
+.ant-picker-input input{
+    border: none !important;
+    height: 35px !important;
+}
+.h6{
+    font-size: 16px !important;
+}
+.btn1{
+    background-color: rgb(88, 79, 79) !important;
+    color :aliceblue !important;
+    box-shadow: none !important;
+    
+}
+.img-fluid{
+    max-width: auto !important;
+    height:  400%  !important;
+}
+.text-muted{
+    color: azure !important;
+}
+
+
+.hero-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80'),linear-gradient(rgb(0, 0, 0,0.1), rgba(0,0,0,0.5));
+    background-position: center;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-title {
+    font-size: 4rem;
+}
+.btn2{
+    background-color: rgb(12, 12, 12) !important;
+    color :aliceblue !important;
+    box-shadow: none !important;
+
+}
+lottie-player{
+    cursor: pointer;
+}
+
+.hero-image1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150vh;
+    background: url('https://scontent.fcmb11-1.fna.fbcdn.net/v/t39.30808-6/300460697_443331811149089_6139503042363279540_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeF-vC_UmRPD9fTVg8pDxEKANEwJM4u6j500TAkzi7qPncEyETtil1xMf7zoGCvm-1pQgQhd5VqxPG9Ds9jXCq4f&_nc_ohc=YfjpaB_U9i8AX-3WvxG&_nc_ht=scontent.fcmb11-1.fna&oh=00_AfBI0Z5wprN6nZqii_C9ywMcFwc1MWHbcjOtZaghUNePYw&oe=645CEB21'),linear-gradient(rgb(0, 0, 0,0.1), rgba(0,0,0,0.5));
+    background-position: center;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-image_yash {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('https://img5.goodfon.com/wallpaper/nbig/2/3f/makarony-bliudo-lapsha-temnyi-fon-eda-pomidory-skovoroda.jpg'),linear-gradient(rgb(0, 0, 0,0.1), rgba(0,0,0,0.5));
+    background-position: center;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-image_event {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('../src/img/Untitled.jpeg'),linear-gradient(rgb(0, 0, 0,0.1), rgba(0,0,0,0.5));
+    background-position: center;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login-container {
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fblurry-background&psig=AOvVaw2mWFvj7s9j4UCq5uGLBJG9&ust=1683524603187000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCPCpq4HA4v4CFQAAAAAdAAAAABAE");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+  }
+
+  .hero-image_home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150vh;
+    background: url('https://scontent.fcmb11-1.fna.fbcdn.net/v/t39.30808-6/300460697_443331811149089_6139503042363279540_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeF-vC_UmRPD9fTVg8pDxEKANEwJM4u6j500TAkzi7qPncEyETtil1xMf7zoGCvm-1pQgQhd5VqxPG9Ds9jXCq4f&_nc_ohc=YfjpaB_U9i8AX-3WvxG&_nc_ht=scontent.fcmb11-1.fna&oh=00_AfBI0Z5wprN6nZqii_C9ywMcFwc1MWHbcjOtZaghUNePYw&oe=645CEB21'),linear-gradient(rgb(0, 0, 0,0.1), rgba(0,0,0,0.5));
+    background-position: center;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    padding: 16px;
+    text-align: center;
+  }
+
+  
+.pn1{
+    position: absolute;
+    bottom: 85px;
+    left:1151px;
+    font-size: 19px;
+    color:white;
+    font-style: bold;
+    
+}
+
+.btn1:hover {
+    background-color:rgba(227, 211, 160, 0.784);
+    color: rgb(14, 4, 4);
+    transform: translateY(-2px);
+  }
+  
+  .btn1:active {
+    background-color: rgb(12, 12, 12);
+    transform: translateY(0px);
+  }
+
+  .login-container {
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fblurry-background&psig=AOvVaw2mWFvj7s9j4UCq5uGLBJG9&ust=1683524603187000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCPCpq4HA4v4CFQAAAAAdAAAAABAE");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+  }
+
+  .hero-image_taxi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('../src/img/Untitled.jpeg'),linear-gradient(rgb(0, 0, 0,0.1), rgba(0,0,0,0.5));
+    background-position: center;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-image_tour {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('https://c4.wallpaperflare.com/wallpaper/744/747/648/morning-sun-on-gunung-batur-wallpaper-preview.jpg'),linear-gradient(rgb(0, 0, 0,0.1), rgba(0,0,0,0.5));
+    background-position: center;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btnguid {
+    display: inline-block;
+    background-color: rgb(241, 198, 114);
+    color: rgb(0, 0, 0);
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 24px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    position: absolute;
+    bottom: 20px;
+    right: 100px;
+  }
+  
+  .btnguid:hover {
+    background-color: rgb(238, 245, 184);
+    color: rgb(14, 4, 4);
+    transform: translateY(-2px);
+  }
+  
+  .btnguid:active {
+    background-color: #f5fbc8;
+    transform: translateY(0px);
+  }
+  
