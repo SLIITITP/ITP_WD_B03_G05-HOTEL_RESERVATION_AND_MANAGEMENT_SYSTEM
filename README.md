@@ -1,5 +1,3 @@
-# ITP_WD_B03_G05
-
 # Project Name - Hotel Management and Reservation System
 # Batch - ITP_WD_B03_G05
 ### Group Leader - IT21187032 (KD2544)
