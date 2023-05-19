@@ -48,7 +48,7 @@ const dotenv=require("dotenv");
 require("dotenv").config();
 
 
-
+//connect database
 const connect = async () =>{
     try {
         await mongoose.connect(process.env.MONGODB_URL);
