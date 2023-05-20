@@ -51,4 +51,4 @@ const bookingSchema = mongoose.Schema({
 
 const bookingmodel = mongoose.model('bookingsevent' , bookingSchema);
 
-module.exports = bookingmodel
+module.exports = bookingmodel //exporting module
