@@ -229,7 +229,7 @@ lottie-player{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: url('../src/img/Untitled.jpeg'),linear-gradient(rgb(0, 0, 0,0.1), rgba(0,0,0,0.5));
+    background: url('https://media.istockphoto.com/id/519870714/photo/taxi.jpg?b=1&s=170667a&w=0&k=20&c=_WU8xoicbDkzMJLJodeCdSpMDswO7sN7plAsAqikyQI='),linear-gradient(rgb(0, 0, 0,0.1), rgba(0,0,0,0.5));
     background-position: center;
     background-blend-mode: overlay;
     background-repeat: no-repeat;
