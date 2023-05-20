@@ -134,7 +134,7 @@ function HomescreenM() {
 <div>
 <p className="pn1">Do You Want To Earn With Us?</p>
 
-<button className="btn1">
+<button className="btnM">
            <a href="/regtaxi"> Become a driver</a>
           </button>
           </div>
