@@ -275,4 +275,22 @@ lottie-player{
     background-color: #f5fbc8;
     transform: translateY(0px);
   }
+
+.btnM{
+    display: inline-block;
+    background-color: #c6bf45ef;
+    color: rgb(255, 253, 253);
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 24px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    position: absolute;
+    bottom: 40px;
+    right: 98px;
+
+  }
   
