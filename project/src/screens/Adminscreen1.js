@@ -8,7 +8,7 @@ import {Link , useParams} from "react-router-dom"
 import { Tabs } from "antd";
 const { TabPane } = Tabs;
 
-function Adminscreen1() {
+function Adminscreen1() { //setting a function for the dayouting packages admin panal
   useEffect(() => {
     if (!JSON.parse(localStorage.getItem("currentUser")).isAdmin) {
       window.location.href = "/day";
@@ -153,7 +153,7 @@ export function Dayouts() {
     fetchData();
   }, []);
 
-  async function deleteDayout(dayoutid) {
+  async function deleteDayout(dayoutid) {   //setting a function to delete the bookings
     try {
       const response = await axios.delete(`/api/dayouts/deletedayout/${dayoutid}`);
       const result = response.data;
