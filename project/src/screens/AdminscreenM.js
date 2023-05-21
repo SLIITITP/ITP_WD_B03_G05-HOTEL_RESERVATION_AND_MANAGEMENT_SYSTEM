@@ -8,7 +8,7 @@ import { Tabs } from "antd";
 import useFetch from "../hooks/useFetch";
 import { Link, useParams } from "react-router-dom";
 const { TabPane } = Tabs;
-
+//function Admin Screen
 function AdminscreenM() {
   useEffect(() => {
     if (!JSON.parse(localStorage.getItem("currentUser")).isAdmin) {
