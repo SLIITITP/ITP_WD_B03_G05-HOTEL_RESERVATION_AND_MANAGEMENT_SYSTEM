@@ -13,7 +13,7 @@ import moment from "moment";
 import { DatePicker, Select, Space } from "antd";
 const { RangePicker } = DatePicker;
 
-
+//home screen View
 function HomescreenM() {
   let [loading, setloading] = useState();
   let [error, seterror] = useState();
