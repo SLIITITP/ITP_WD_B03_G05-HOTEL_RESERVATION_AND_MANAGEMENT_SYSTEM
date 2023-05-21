@@ -39,7 +39,7 @@ function Inventory() {
 export default Inventory;
 
 
-//*****Display all the items */
+//**Display all the items */
 export function Items() {
     const [items, setItems] = useState([]);
     const [loading, setLoading] = useState(true);
