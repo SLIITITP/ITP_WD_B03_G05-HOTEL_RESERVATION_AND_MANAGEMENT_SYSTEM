@@ -10,7 +10,7 @@ import { DatePicker, Select, Space } from "antd";
 
 const { RangePicker } = DatePicker;
 
-function Homescreen() {
+function Homescreen() { //setting a function for the dayouting packages home screen
   let [dayouts, setdayouts] = useState([]);
   let [loading, setloading] = useState();
   let [error, seterror] = useState();
