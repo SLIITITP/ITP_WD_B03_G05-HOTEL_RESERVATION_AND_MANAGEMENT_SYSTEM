@@ -36,10 +36,10 @@ function Homescreen() {
     getResults();
   }, []);
 
-  function filterByDate(dates) {
+  function filterByDate(dates) { //creating function for the calender
 
 
-    setfromdate(moment(dates[0].toISOString()).format('DD-MM-YYYY'));
+    setfromdate(moment(dates[0].toISOString()).format('DD-MM-YYYY')); //setting calender
     settodate(moment(dates[1].toISOString()).format('DD-MM-YYYY'));
 
     const [from, to] = dates;
@@ -88,7 +88,7 @@ function Homescreen() {
     
   
 
-  function filterBySearch(){
+  function filterBySearch(){ //setting a function for the search bar
 
     const tempdayouts = duplicatedayouts.filter(dayout=> dayout.name.toLowerCase().includes(searchkey.toLowerCase()))
 
@@ -96,7 +96,7 @@ function Homescreen() {
 
   }
 
-  function filterByName(e){
+  function filterByName(e){ //setting function for the filter by name bar
 
     setname(e)
 
@@ -119,7 +119,7 @@ function Homescreen() {
 
 
 
-  function PackagePageBanner() {
+  function PackagePageBanner() { //setting function for the package main page banner
     return (
       <section
        class="img-fluid justify-content-center " className="w-auto p-3 hero-image1" 
