@@ -10,7 +10,7 @@ import StripeCheckout from "react-stripe-checkout";
 
 import Swal from "sweetalert2";
 
-function Bookingscreen1() {
+function Bookingscreen1() { // setting a function for the dayouting packages booking screen
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
   const [dayout, setDayout] = useState(null);
@@ -43,7 +43,7 @@ function Bookingscreen1() {
         setLoading(false);
       }
     };
-    fetchData();
+    fetchData(); //fetching data by booking id
   }, [id]);
 
   useEffect(() => {
