@@ -158,7 +158,7 @@ export function Taxis() {
     };
     fetchData();
   }, []);
-
+//Delete Taxi
   async function deleteTaxi(taxiid) {
     try {
       const result = await (
