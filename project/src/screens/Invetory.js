@@ -170,7 +170,7 @@ export function Items() {
   
 
 
-/*add item component*/  
+/**add item component*/  
  export function Additem() {
    const [title, settitle] = useState('');
    const [quanty, setquanty] = useState('');
