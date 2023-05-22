@@ -35,6 +35,7 @@ function Inventory() {
 
 export default Inventory;
 
+/*Display All Foods*/
 export function Foods() {
   const [foods, setFoods] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -152,6 +153,7 @@ export function Foods() {
   );
 }
 
+/*add food component*/
 export function AddFood() {
   const [name, setName] = useState("");
   const [price, setPrice] = useState("");
