@@ -1,7 +1,7 @@
 const Item = require('../models/itemModel')
 const mongoose = require('mongoose')
 
-//get all items
+//Get all items
 const getItems = async(req, res)=>{
     const items = await Item.find({}).sort({createdAt: -1})
 
@@ -9,7 +9,7 @@ const getItems = async(req, res)=>{
 }
 
 
-//get a single item
+//Get a single item
 const getItem = async(req, res)=> {
     const {id}= req.params
 
@@ -27,11 +27,11 @@ const getItem = async(req, res)=> {
 }
 
 
-//create new item
+//Create new item
 const createItem = async (req, res)=>{
     const {title, quanty, value} = req.body
 
-    //add doc to db
+    //Add doc to db
     try{
         const item= await Item.create({title, quanty, value})
         res.status(200).json(item)
@@ -40,7 +40,7 @@ const createItem = async (req, res)=>{
     }
 }
 
-//delete a item
+//Delete a item
 const deleteItem = async(req, res)=> {
     const{id}= req.params
 
@@ -59,7 +59,7 @@ const deleteItem = async(req, res)=> {
 }
 
 
-//update a item
+//Update a item
 const updateItem = async(req, res)=>{
     const{id}= req.params
 
