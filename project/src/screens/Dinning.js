@@ -9,7 +9,7 @@ import useFetch from "../hooks/useFetch";
 import { Link, useParams } from "react-router-dom";
 const { TabPane } = Tabs;
 
-function Inventory() {
+function Dinning() {
   useEffect(() => {
     if (!JSON.parse(localStorage.getItem("currentUser")).isAdmin) {
       window.location.href = "/home";
@@ -33,7 +33,7 @@ function Inventory() {
   );
 }
 
-export default Inventory;
+export default Dinning;
 
 /*Display All Foods*/
 export function Foods() {
